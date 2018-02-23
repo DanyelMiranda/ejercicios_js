@@ -1,0 +1,54 @@
+/* Styles de principal */
+
+.back {
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+header nav ul {
+    display: block;
+    text-align: right;
+    list-style: none;
+    vertical-align: top;
+}
+
+li {
+    display: inline-block;
+    
+}
+
+
+/* Styles de view2 */
+
+.gamer-pic{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5)),
+        url('img/gamer.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;  
+}
+
+#title{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#level-pic{
+    width: 400px;
+}
+
+.content{
+    /* border: darkblue solid 1px;  */
+    height: 650px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+
+
